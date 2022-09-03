@@ -2,8 +2,19 @@
 font-family: 'Roboto', sans-serif; */
 
 /* navigation */
+
+.navbar {
+  padding: 60px 80px;
+  justify-content: space-between;
+}
+
 .logo {
   width: 150px;
+  margin-left: 100px;
+}
+
+nav .logo {
+  margin-right: 600px;
 }
 
 .navigation-link {
@@ -12,11 +23,17 @@ font-family: 'Roboto', sans-serif; */
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   margin-top: 38px;
+  margin-left: 45px;
 }
 
 .active-link {
   color: #662eed;
 }
+
+.navbar-nav {
+  text-align: end;
+}
+
 /* hero */
 .hero {
   height: 265px;
@@ -46,12 +63,13 @@ h2 {
 
 /* main section */
 
-section {
-  margin: 100px 0;
+.container {
+  margin: auto;
+  padding: 30px 0;
 }
 
 .recipe-card-image {
-  height: 350px;
+  max-width: 560px;
   border-radius: 12px;
 }
 
@@ -78,16 +96,12 @@ h3 {
 
 footer {
   background-color: #f9f7fe;
-}
-
-footer .logo {
-  margin: 37.2px;
+  padding: 60px 80px;
 }
 
 .sm-icon {
   width: 16px;
   color: #272142;
-  margin-top: 42px;
 }
 
 .copyright {
@@ -95,6 +109,5 @@ footer .logo {
   color: #272142;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 42px;
   text-align: end;
 }
