@@ -1,6 +1,22 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+/* navigation */
+.logo {
+  width: 150px;
+}
+
+.navigation-link {
+  color: #272142;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.active-link {
+  color: #662eed;
+}
+/* hero */
 .hero {
   height: 265px;
   background-image: url("images/hero.jpg");
@@ -25,4 +41,29 @@ h2 {
   font-size: 24px;
   line-height: 1.46;
   color: #ffffff;
+}
+
+/* footer */
+
+footer {
+  background-color: #f9f7fe;
+}
+
+footer .logo {
+  margin: 37.2px;
+}
+
+.sm-icon {
+  width: 16px;
+  color: #272142;
+  margin-top: 42px;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  color: #272142;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 42px;
+  text-align: end;
 }
