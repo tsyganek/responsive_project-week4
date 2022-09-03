@@ -10,11 +10,10 @@ font-family: 'Roboto', sans-serif; */
 
 .logo {
   width: 150px;
-  margin-left: 100px;
 }
 
 nav .logo {
-  margin-right: 600px;
+  margin-right: 400px;
 }
 
 .navigation-link {
@@ -24,6 +23,11 @@ nav .logo {
   font-weight: bold;
   margin-top: 38px;
   margin-left: 45px;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  color: #272142;
 }
 
 .active-link {
@@ -69,7 +73,7 @@ h2 {
 }
 
 .recipe-card-image {
-  max-width: 560px;
+  max-width: 100%;
   border-radius: 12px;
 }
 
