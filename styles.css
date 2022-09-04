@@ -7,9 +7,20 @@ body {
 
 /* navigation */
 
-.navbar {
+.header-nav {
   padding: 60px 80px;
+  display: flex;
   justify-content: space-between;
+}
+
+.logo-container-nav {
+  margin: 0 auto;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .logo {
@@ -32,10 +43,6 @@ body {
 
 .active-link {
   color: #662eed;
-}
-
-.navbar-nav {
-  text-align: end;
 }
 
 /* hero */
@@ -118,9 +125,24 @@ footer {
 
 /* mobile */
 
-@media only screen and (max-width: 768px) {
-  .navbar {
-    padding: 40px 0px;
+@media only screen and (max-width: 767px) {
+  .header-nav {
+    padding: 20px;
+    display: block;
+  }
+
+  .logo {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  .navigation-link {
+    margin-left: 20px;
   }
 
   hero {
