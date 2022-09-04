@@ -13,10 +13,6 @@ body {
   justify-content: space-between;
 }
 
-.logo-container-nav {
-  margin: 0 auto;
-}
-
 .navigation-list {
   display: flex;
   justify-content: space-between;
