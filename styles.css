@@ -99,11 +99,14 @@ ul {
 }
 
 h3 {
-  font-size: 28px;
   color: #272142;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.index-recipe-card-h3 {
+  font-size: 28px;
 }
 /* footer */
 
@@ -199,6 +202,10 @@ footer {
 }
 
 /* recipe collection page */
+
+.recipe-collection-h1 {
+  padding-bottom: 100px;
+}
 .recipe-card-name {
   font-size: 36px;
   text-align: left;
@@ -206,6 +213,11 @@ footer {
 
 .recipe-collection-card-image {
   max-width: 100%;
+}
+
+.recipe-card-name {
+  font-size: 36px;
+  padding: 30px;
 }
 
 .recipe-subheading {
@@ -243,4 +255,8 @@ footer {
 
 hr {
   border-top: dashed 3px #67d5d2;
+}
+
+.container:last-child {
+  margin-bottom: 100px;
 }
