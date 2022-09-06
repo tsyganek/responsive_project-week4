@@ -8,7 +8,7 @@ body {
 /* navigation */
 
 .header-nav {
-  padding: 60px 80px;
+  padding: 60px 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -114,7 +114,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #f9f7fe;
-  padding: 60px 80px;
+  padding: 60px 100px;
 }
 
 .sm-icon {
@@ -128,6 +128,63 @@ footer {
   font-size: 16px;
   font-weight: 400;
   text-align: end;
+}
+
+/* recipe collection page */
+
+.recipe-collection-h1 {
+  padding-bottom: 100px;
+}
+.recipe-card-name {
+  font-size: 36px;
+  text-align: left;
+}
+
+.recipe-collection-card-image {
+  max-width: 100%;
+}
+
+.recipe-card-name {
+  font-size: 36px;
+  padding: 30px;
+}
+
+.recipe-subheading {
+  font-family: "Nunito", sans-serif;
+  color: #272142;
+  font-weight: bold;
+  font-size: 24;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.recipe-container {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.recipe-subcontainer {
+  max-width: 50%;
+}
+
+.recipe-step-h5 {
+  padding: 30px 0 20px 0;
+  color: #f65282;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.recipe-container p,
+.recipe-container li {
+  text-align: start;
+  color: #272142;
+  font-size: 18px;
+  line-height: 1.66;
+}
+
+hr {
+  border-top: dashed 2px #67d5d2;
 }
 
 /* mobile */
@@ -199,61 +256,21 @@ footer {
   .copyright {
     text-align: center;
   }
-}
 
-/* recipe collection page */
+  .recipe-collection-h1 {
+    padding-bottom: 50px;
+  }
 
-.recipe-collection-h1 {
-  padding-bottom: 100px;
-}
-.recipe-card-name {
-  font-size: 36px;
-  text-align: left;
-}
+  .recipe-container {
+    display: block;
+  }
 
-.recipe-collection-card-image {
-  max-width: 100%;
-}
+  .recipe-subcontainer {
+    max-width: 100%;
+  }
 
-.recipe-card-name {
-  font-size: 36px;
-  padding: 30px;
-}
-
-.recipe-subheading {
-  font-family: "Nunito", sans-serif;
-  color: #272142;
-  font-weight: bold;
-  font-size: 24;
-  text-align: left;
-  padding: 20px 0;
-}
-
-.recipe-container {
-  display: flex;
-  margin-bottom: 80px;
-}
-
-.recipe-subcontainer {
-  max-width: 50%;
-}
-
-.recipe-step-h5 {
-  padding: 30px 0 20px 0;
-  color: #f65282;
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.recipe-container p,
-.recipe-container li {
-  text-align: start;
-  color: #272142;
-  font-size: 18px;
-  line-height: 1.66;
-}
-
-hr {
-  border-top: dashed 3px #67d5d2;
+  .recipe-card-name {
+    font-size: 30px;
+    padding: 20px;
+  }
 }
