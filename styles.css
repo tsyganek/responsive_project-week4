@@ -231,6 +231,7 @@ footer {
 
 .recipe-container {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .recipe-subcontainer {
@@ -255,8 +256,4 @@ footer {
 
 hr {
   border-top: dashed 3px #67d5d2;
-}
-
-.container:last-child {
-  margin-bottom: 100px;
 }
