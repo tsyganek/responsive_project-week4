@@ -345,6 +345,46 @@ hr {
     display: none;
   }
 
+  /* about */
+
+  .about-me-container {
+    display: block;
+  }
+
+  .about-me-subcontainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-me-subcontainer p {
+    text-align: justify;
+  }
+
+  .about-me-social-media-container {
+    margin: 0 auto;
+  }
+
+  .about-me-recipe-cards-container {
+    display: block;
+  }
+
+  .about-me-recipe-card {
+    width: 100%;
+    margin: 20 auto;
+  }
+
+  .about-me-recipe-cards-container div:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .about-me-recipe-card h4 {
+    line-height: 2;
+  }
+
+  .about-me-recipe-card p {
+    line-height: 1.5;
+  }
+
   .copyright-container {
     margin: 20px;
   }
