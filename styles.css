@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif; */
 body {
   margin: auto;
   font-family: var(--main-font-family);
+  color: var(--main-font-color);
 }
 
 /* navigation */
@@ -35,9 +36,8 @@ body {
 }
 
 .navigation-link {
-  color: #272142;
+  color: var(--main-font-color);
   font-size: 16px;
-  font-family: "Nunito", sans-serif;
   font-weight: bold;
   margin-top: 38px;
   margin-left: 45px;
@@ -45,11 +45,11 @@ body {
 
 .navigation-link:hover {
   text-decoration: none;
-  color: #272142;
+  color: var(--main-font-color);
 }
 
 .active-link {
-  color: #662eed;
+  color: var(--contacts-color);
 }
 
 /* hero */
@@ -64,7 +64,6 @@ body {
 }
 
 h1 {
-  font-family: "Nunito", sans-serif;
   font-size: 72px;
   font-weight: bold;
   line-height: 1.36;
@@ -76,11 +75,7 @@ img {
 }
 
 .hero-h1 {
-  color: #ffffff;
-}
-
-.recipe-collection-h1 {
-  color: #272142;
+  color: var(--hero-index-text-color);
 }
 
 h2 {
@@ -90,7 +85,7 @@ h2 {
 }
 
 .hero-h2 {
-  color: #ffffff;
+  color: var(--hero-index-text-color);
   font-size: 24px;
 }
 
@@ -121,8 +116,6 @@ ul {
 }
 
 h3 {
-  color: #272142;
-  font-family: "Nunito", sans-serif;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -135,18 +128,17 @@ h3 {
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #f9f7fe;
+  background-color: var(--footer-background-color);
   padding: 60px 100px;
 }
 
 .icon {
   width: 16px;
-  color: #272142;
+  color: var(--main-font-color);
 }
 
 .copyright {
-  font-family: "Roboto", sans-serif;
-  color: #272142;
+  font-family: var(--second-font-family);
   font-size: 16px;
   font-weight: 400;
   text-align: end;
@@ -160,10 +152,6 @@ footer {
   display: flex;
 }
 
-.about-me-h1 {
-  font-size: 72px;
-}
-
 .about-me-subcontainer {
   width: 50%;
 }
@@ -174,16 +162,13 @@ footer {
 
 .about-me-h2 {
   font-size: 64px;
-  font-family: "Nunito", sans-serif;
   font-weight: bold;
-  color: #272142;
   padding-top: 40px;
 }
 
 .about-me-text {
   font-size: 18px;
   line-height: 1.66;
-  color: #272142;
   padding-bottom: 50px;
 }
 
@@ -196,13 +181,6 @@ footer {
 .about-me-social-media-followme {
   font-weight: bold;
   font-size: 18px;
-  color: #272142;
-  font-family: "Nunito", sans-serif;
-}
-
-.about-me-sm-icon {
-  width: 16px;
-  color: #272142;
 }
 
 .about-me-recipe-cards-container {
@@ -218,8 +196,6 @@ footer {
 .favourite-recipes-h2 {
   font-size: 36;
   font-weight: bold;
-  color: #272142;
-  font-family: "Nunito", sans-serif;
   margin-bottom: 50px;
 }
 
@@ -227,15 +203,11 @@ footer {
   font-size: 24px;
   font-weight: bold;
   line-height: 2.5;
-  color: #272142;
-  font-family: "Nunito", sans-serif;
 }
 
 .about-me-recipe-card p {
   font-size: 16px;
   line-height: 1.88;
-  color: #272142;
-  font-family: "Nunito", sans-serif;
 }
 
 /* recipe collection page */
@@ -258,8 +230,6 @@ footer {
 }
 
 .recipe-subheading {
-  font-family: "Nunito", sans-serif;
-  color: #272142;
   font-weight: bold;
   font-size: 24;
   text-align: left;
@@ -277,8 +247,7 @@ footer {
 
 .recipe-step-h5 {
   padding: 30px 0 20px 0;
-  color: #f65282;
-  font-family: "Nunito", sans-serif;
+  color: var(--recipe-line-color);
   font-weight: 700;
   font-size: 18px;
 }
@@ -286,13 +255,12 @@ footer {
 .recipe-container p,
 .recipe-container li {
   text-align: start;
-  color: #272142;
   font-size: 18px;
   line-height: 1.66;
 }
 
 hr {
-  border-top: dashed 2px #67d5d2;
+  border-top: dashed 2px var(--recipe-line-color);
 }
 
 /* about */
@@ -316,10 +284,8 @@ hr {
 
 .contacts h5 {
   text-transform: uppercase;
-  color: var(--contacts-color);
   font-weight: bold;
   font-size: 18px;
-  font-family: var(--main-font-family);
 }
 
 .contact-line {
@@ -328,8 +294,6 @@ hr {
 
 .contact-line a {
   font-size: 16px;
-  font-family: var(--main-font-family);
-  color: var(--main-font-color);
   text-decoration: none;
   margin-left: 10px;
 }
@@ -387,7 +351,6 @@ hr {
   }
 
   footer {
-    background-color: #f9f7fe;
     padding: 20px;
     display: block;
   }
