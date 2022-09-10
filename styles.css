@@ -1,5 +1,16 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif; */
+:root {
+  --main-font-family: "Nunito", sans-serif;
+  --second-font-family: "Roboto", sans-serif;
+  --main-font-color: #272142;
+  --hero-index-text-color: #ffffff;
+  --footer-background-color: #f9f7fe;
+  --contacts-color: #662eed;
+  --recipe-steps-color: #f65282;
+  --recipe-line-color: #67d5d2;
+  --main-border-radius: ;
+}
 
 body {
   margin: auto;
@@ -57,6 +68,7 @@ h1 {
   font-size: 72px;
   font-weight: bold;
   line-height: 1.36;
+  text-align: center;
 }
 
 img {
@@ -127,7 +139,7 @@ footer {
   padding: 60px 100px;
 }
 
-.sm-icon {
+.icon {
   width: 16px;
   color: #272142;
 }
