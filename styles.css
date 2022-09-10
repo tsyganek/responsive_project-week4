@@ -9,11 +9,11 @@ font-family: 'Roboto', sans-serif; */
   --contacts-color: #662eed;
   --recipe-steps-color: #f65282;
   --recipe-line-color: #67d5d2;
-  --main-border-radius: ;
 }
 
 body {
   margin: auto;
+  font-family: var(--main-font-family);
 }
 
 /* navigation */
@@ -295,6 +295,45 @@ hr {
   border-top: dashed 2px #67d5d2;
 }
 
+/* about */
+
+.contact-container {
+  display: flex;
+  margin: 100px auto;
+}
+
+.contact-subcontainer {
+  width: 50%;
+}
+
+.contacts {
+  padding-left: 60px;
+}
+
+.contact-card {
+  margin-top: 50px;
+}
+
+.contacts h5 {
+  text-transform: uppercase;
+  color: var(--contacts-color);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: var(--main-font-family);
+}
+
+.contact-line {
+  display: flex;
+}
+
+.contact-line a {
+  font-size: 16px;
+  font-family: var(--main-font-family);
+  color: var(--main-font-color);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
 /* mobile */
 
 @media only screen and (max-width: 767px) {
@@ -426,5 +465,20 @@ hr {
   .recipe-card-name {
     font-size: 30px;
     padding: 20px;
+  }
+
+  /* about */
+
+  .contact-container {
+    display: block;
+    margin: 50px auto;
+  }
+
+  .contact-subcontainer {
+    width: 100%;
+  }
+
+  .contacts {
+    padding-left: 0px;
   }
 }
