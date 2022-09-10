@@ -355,8 +355,13 @@ hr {
     display: block;
   }
 
-  footer .logo {
+  nav .logo {
     display: none;
+  }
+
+  .sm-container {
+    max-width: 30%;
+    margin: 30px auto;
   }
 
   /* about */
